@@ -23,6 +23,7 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public String redis(String param) {
+        redisUtils.get(param);
         return null;
     }
 }
